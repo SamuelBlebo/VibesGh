@@ -287,6 +287,7 @@ a:focus {
 
 /*end header section*/
 /* slider section */
+* slider section */
 .slider_section {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -322,7 +323,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 span {
-  color: #66ff00;
+  color: #f3c93e;
 }
 
 .slider_section .detail-box p {
@@ -332,10 +333,10 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #66ff00;
+  background-color: #f3c93e;
   color: #ffffff;
   border-radius: 5px;
-  border: 1px solid #66ff00;
+  border: 1px solid #f3c93e;
   -webkit-transition: all .3s;
   transition: all .3s;
   margin-top: 15px;
@@ -343,7 +344,7 @@ a:focus {
 
 .slider_section .detail-box a:hover {
   background-color: transparent;
-  color: #66ff00;
+  color: #f3c93e;
 }
 
 .slider_section .img-box img {
@@ -372,7 +373,7 @@ a:focus {
   position: unset;
   width: 50px;
   height: 50px;
-  background-color: #A9A9A9;
+  background-color: #3a4468;
   opacity: 1;
   -webkit-transition: all .2s;
   transition: all .2s;
@@ -386,10 +387,10 @@ a:focus {
 
 .slider_section .carousel_btn_box .carousel-control-prev:hover,
 .slider_section .carousel_btn_box .carousel-control-next:hover {
-  background-color: #66ff00;
+  background-color: #f3c93e;
 }
 
-
+/* end of slider section */
 
 .product_section .heading_container {
   margin-bottom: 25px;
