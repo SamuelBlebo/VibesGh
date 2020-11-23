@@ -523,6 +523,44 @@ margin: 20px 0 0 20px;
   border-radius: 5px;
 }
 
+/* DownLoad area */
+
+.cover-photo{
+  height: 800px;
+}
+
+.cover-photo img{
+  max-width: 100%;
+  width: auto;
+  height: 800px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.download-box{
+  height: auto;
+  margin-top: 20px;
+  border: 2px solid #808080 ;
+  border-radius: 5px;
+}
+
+.download-box h3 {
+  font-weight: bold;
+  margin: 10px 0px 0px 10px;
+
+}
+
+.download-box p{
+  margin-top: 10px;
+  margin-left: 10px;
+font-size: medium;
+}
+
+
+
+
+
 /* end Display area */
 
 
@@ -901,5 +939,7 @@ div .next-page button{
 .nothing h3{
   font-weight:bolder;
 }
+
+
 
 

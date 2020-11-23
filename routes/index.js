@@ -32,6 +32,13 @@ router.get('/contact', (req, res) => {
   res.render('contact')
 })
 
+// @desc Contact
+// @route Get /contact
+router.get('/download', (req, res) => {
+  res.render('download')
+})
+
+
 
 
 
