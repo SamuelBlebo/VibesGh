@@ -489,7 +489,7 @@ a:focus {
   color: #000000;
   background-color:#A9A9A9 ;
   width: 30%;
-  height: 600px;
+  height: 700px;
   margin-top: 10px;
   float:right;
   border-top: 10px solid #808080 ;
@@ -554,7 +554,25 @@ margin: 20px 0 0 20px;
 .download-box p{
   margin-top: 10px;
   margin-left: 10px;
-font-size: medium;
+}
+
+.download-icon{
+  padding: 20px;
+  background-color:#66FF00 ;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+}
+
+audio{
+  margin-left: 50px;
+  border-radius: 20px;
+  padding: 3px;
+  background-color: #808080;
+}
+
+audio::-webkit-media-controls-enclosure {
+  background-color: #808080;
 }
 
 
@@ -618,6 +636,56 @@ div .next-page button{
 }
 
 /* WhatsApp */
+
+
+/* contact */
+
+.leftside{
+  width: 100%;
+  height: 150px;
+  border-right: 2px #66ff00 solid;
+  margin-top: 20px;
+  padding: 20px 20px 20px 40px;
+
+}
+
+.leftside h3{
+  font-weight: bold;
+  
+}
+
+.rightside{
+  width: 100%;
+  height: 200px;
+  border-right: 2px #66ff00 solid;
+  margin-top: 20px;
+  padding: 20px 20px 20px 40px;
+}
+
+.rightside i {
+  margin-left: 20px;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #66ff00;
+}
+
+.callContact i,
+.callContact h5{
+  display: inline;
+}
+
+.whatsappContact i,
+.whatsappContact h5{
+  display: inline;
+}
+
+.emailContact i,
+.emailContact h5{
+  display: inline;
+}
+
+/*  End contact */
 
 
 .info_section {
@@ -789,6 +857,17 @@ div .next-page button{
   margin: -35px;
 }
 
+.cover-photo{
+  position: relative;
+  top: -85px;
+}
+
+.download-box{
+  position: relative;
+  top: -200px;
+}
+
+
   .song{
     height: 180px;
   }
@@ -870,6 +949,25 @@ div .next-page button{
   .display-section{
     width: 100%;
     float: none;
+    height: 800px;
+  }
+
+
+  .cover-photo{
+    position: relative;
+    top: -85px;
+  }
+
+  .download-box{
+    position: relative;
+    top: -250px;
+  }
+
+  .download-box h3{
+    font-size: medium;
+  }
+  .download-box p {
+    font-size: small;
   }
 
   .song{
@@ -893,7 +991,18 @@ div .next-page button{
   }
 
   .trending{
-    display: none;
+    width: 100%;
+    float: none;
+    height: 250px;
+  }
+
+  .trending .trend{
+    display: inline-block;
+  }
+
+  .timage{
+    width: auto;
+    height: 50px;
   }
 
   .next-page{
