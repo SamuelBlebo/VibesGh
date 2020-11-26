@@ -19,7 +19,7 @@
               </a>
             </div>
             <from class="search_form">
-              <input type="text" class="form-control" placeholder="Search here...">
+              <input type="text" class="form-control" id="myInput"  placeholder="Search Song here..."  onkeyup="myFunction()" title="Type song name or title">
               <button class="" type="submit">
                 <i class="fa fa-search" aria-hidden="true"></i>
               </button>
@@ -89,92 +89,82 @@
 
   <div class=" container main-area">
           {{!-- Main Area --}}
-    <section  class="display-section">
-      <a href="#">
-        <div class="song">
-        <h3>Stonebwoy ft Davido - Activate</h3>
-        <div class="image">
-          <img src="images/t2.jpg" alt="" class="zoom">
-        </div>
+     <section  class="display-section">
+      <ul id="songUL">
+        <li>
+          <a href="/download">
+            <div class="song">
+            <h3>Shatta Wale</h3>
+            <div class="image">
+              <img src="images/t2.jpg" alt="" class="zoom">
+            </div>
+            <div class="songinfo">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                    voluptates quam distinctio quia? Sint perferendis 
+              dolor provident uptates quam distinctio quia? Sint perferendis 
+              dolor provident  ?</p>
+              <a href="#" class="zoom readmorex">Download</a>
+            </div>
+            </div>
+          </a>
+        </li>
+        <hr>
+        <li>
+          <a href="/download">
+            <div class="song">
+            <h3>Sarkodie</h3>
+            <div class="image">
+              <img src="images/t2.jpg" alt="" class="zoom">
+            </div>
+            <div class="songinfo">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                    voluptates quam distinctio quia? Sint perferendis 
+              dolor provident uptates quam distinctio quia? Sint perferendis 
+              dolor provident  ?</p>
+              <a href="#" class="zoom readmorex">Download</a>
+            </div>
+            </div>
+          </a>
+        </li>
+        <hr>
+        <li>
+          <a href="/download">
+            <div class="song">
+            <h3>Stonebwoy</h3>
+            <div class="image">
+              <img src="images/t2.jpg" alt="" class="zoom">
+            </div>
+            <div class="songinfo">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                    voluptates quam distinctio quia? Sint perferendis 
+              dolor provident uptates quam distinctio quia? Sint perferendis 
+              dolor provident  ?</p>
+              <a href="#" class="zoom readmorex">Download</a>
+            </div>
+            </div>
+          </a>
+        </li>
+        <hr>
+        <li>
+          <a href="/download">
+            <div class="song">
+            <h3>Kuame Eugene</h3>
+            <div class="image">
+              <img src="images/t2.jpg" alt="" class="zoom">
+            </div>
+            <div class="songinfo">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                    voluptates quam distinctio quia? Sint perferendis 
+              dolor provident uptates quam distinctio quia? Sint perferendis 
+              dolor provident  ?</p>
+              <a href="#" class="zoom readmorex">Download</a>
+            </div>
+            </div>
+          </a>
+        </li>
+        <hr>
         
-        <div class="songinfo">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                voluptates quam distinctio quia? Sint perferendis 
-          dolor provident uptates quam distinctio quia? Sint perferendis 
-          dolor provident  ?</p>
-          <a href="#" class="zoom readmorex">Download</a>
-        </div>
-      </div>
-      </a>
-      <hr>
-       <a href="#">
-        <div class="song">
-        <h3>Stonebwoy ft Davido - Activate</h3>
-        <div class="image">
-          <img src="images/t2.jpg" alt="" class="zoom">
-        </div>
-        
-        <div class="songinfo">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                voluptates quam distinctio quia? Sint perferendis 
-          dolor provident uptates quam distinctio quia? Sint perferendis 
-          dolor provident  ?</p>
-          <a href="#" class="zoom readmorex">Download</a>
-        </div>
-      </div>
-      </a>
-       <hr>
-      <a href="#">
-        <div class="song">
-        <h3>Stonebwoy ft Davido - Activate</h3>
-        <div class="image">
-          <img src="images/t2.jpg" alt="" class="zoom">
-        </div>
-        
-        <div class="songinfo">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                voluptates quam distinctio quia? Sint perferendis 
-          dolor provident uptates quam distinctio quia? Sint perferendis 
-          dolor provident  ?</p>
-          <a href="#" class="zoom readmorex">Download</a>
-        </div>
-      </div>
-      </a>
-       <hr>
-      <a href="#">
-        <div class="song">
-        <h3>Stonebwoy ft Davido - Activate</h3>
-        <div class="image">
-          <img src="images/t2.jpg" alt="" class="zoom">
-        </div>
-        
-        <div class="songinfo">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                voluptates quam distinctio quia? Sint perferendis 
-          dolor provident uptates quam distinctio quia? Sint perferendis 
-          dolor provident  ?</p>
-          <a href="#" class="zoom readmorex">Download</a>
-        </div>
-      </div>
-      </a>
-      <hr>
-      <a href="#">
-        <div class="song">
-        <h3>Stonebwoy ft Davido - Activate</h3>
-        <div class="image">
-          <img src="images/t2.jpg" alt="" class="zoom">
-        </div>
-        
-        <div class="songinfo">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                voluptates quam distinctio quia? Sint perferendis 
-          dolor provident uptates quam distinctio quia? Sint perferendis 
-          dolor provident  ?</p>
-          <a href="#" class="zoom readmorex">Download</a>
-        </div>
-      </div>
-      </a>
-      <hr>
+      </ul>
     </section>
               {{!--Trending Area --}}
     <aside class="trending">
@@ -219,17 +209,5 @@
       </a>
 
     </aside>
-
 </div>
-{{!-- Next PAge Area --}}
-<div class="container">
-  <div class="next-page">
-    <div class="wrapper-nxt">
-    <button class="zoom">1</button>
-    <button class="zoom">2</button>
-    <button class="zoom">3</button>
-    <button class="zoom">4</button>
-    <button class="zoom">next</button>
-    </div>
-  </div>
 </div>

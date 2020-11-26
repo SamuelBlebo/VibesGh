@@ -1,9 +1,4 @@
 @media (max-width: 1200px) {
-  .carousel_btn-box {
-    display: flex;
-    justify-content: center;
-    margin-top: 45px;
-  }
 
   .client_section .carousel-control-prev,
   .client_section .carousel-control-next {

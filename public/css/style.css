@@ -406,6 +406,25 @@ a:focus {
   width: auto;
 }
 
+.display-section .navs{
+  float: left;
+  width: 48%;
+  height: 250px;
+  border: #808080 2px solid;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.display-section .navs h1{
+  font-weight: bolder;
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+
+
 .display-section {
   background-color:#A9A9A9 ;
   width: 70%;
@@ -522,7 +541,6 @@ margin: 20px 0 0 20px;
   object-fit: contain;
   border-radius: 5px;
 }
-
 /* DownLoad area */
 
 .cover-photo{
@@ -575,33 +593,8 @@ audio::-webkit-media-controls-enclosure {
   background-color: #808080;
 }
 
-
-
-
-
 /* end Display area */
 
-
-/* Next page Area */
-
-div .next-page{
-  width: 100%;
-  height: 50px;
-  background-color: #A9A9A9;
-  margin-top: 20px;
-}
-
-div .next-page button{
-  padding: 6px 20px;
-  background-color: #66ff00;
-  border-radius: 20px;
-}
-
-.wrapper-nxt{
-  height: auto;
-  width: auto;
-  margin-left: 140px;
-}
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%$%$$$$$$$$$ */
 .low-text{
@@ -635,10 +628,14 @@ div .next-page button{
   right:12px;
 }
 
-/* WhatsApp */
+/* End of WhatsApp */
 
 
 /* contact */
+
+.contact_info{
+  height: 500px;
+}
 
 .leftside{
   width: 100%;
@@ -662,28 +659,36 @@ div .next-page button{
   padding: 20px 20px 20px 40px;
 }
 
-.rightside i {
-  margin-left: 20px;
-  font-size: 40px;
-  padding: 10px;
+.rightside .icon{
+  height: 65px;
+  width: 65px;
   border-radius: 50%;
+  margin-left: 20px;
   background-color: #66ff00;
 }
 
-.callContact i,
-.callContact h5{
-  display: inline;
+.rightside .icon i{
+font-size: 40px;
+position: relative;
+left: 15px;
+top: 13px;
+
 }
 
-.whatsappContact i,
-.whatsappContact h5{
-  display: inline;
-}
+.rightside .icon,
+.rightside h5{
+  margin-top: 10px;
+  display: inline-block;
+  }
 
-.emailContact i,
-.emailContact h5{
-  display: inline;
-}
+  .rightside h5 {
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 30px;
+  }
+  
+
 
 /*  End contact */
 
@@ -753,87 +758,8 @@ div .next-page button{
   color: inherit;
   color: #66ff00;
 }
-/*# sourceMappingURL=style.css.map */
 
-/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
-
-/* Media queries */
-
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-
-  }  */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
- /* @media only screen and (min-width: 600px) { 
-  .slider_section .img-box{
-    margin-left: 20px;
-  }
-
-  .main-area{
-    background-color: #A9A9A9;
-    height: auto;
-    width: auto;
-  }
-  .display-section{
-    width: 100%;
-    float: none;
-  }
-
-  .song{
-    height: 120px;
-  }
-  .song h3{
-    font-size: smaller;
-  }
-
-  .image img {
-    height: 80px;
-  }
-
-  .song .songinfo {
-    margin-top: 0;
-    font-size: 11px;
-  }
-
-  .song .songinfo a {
-    display: none;
-  }
-
-  .trending{
-    display: none;
-  }
-
-  .next-page{
-    margin-top: 4px;
-    height: 25px;
-  }
-
-  div .next-page button{
-    padding: 0.5px 5px;
-    background-color: #66ff00;
-    border-radius: 20px;
-    font-size: smaller;
-  
-  }
-}   */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {
-} */
-
-/* Large devices (laptops/desktops, 992px and up) */
- /* @media only screen and (min-width: 992px) {}  */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {}  */
-
-
-/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
-
-
-/* main */
-
+/* @media */
  @media (max-width: 1200px) {
 
 }
@@ -949,9 +875,14 @@ div .next-page button{
   .display-section{
     width: 100%;
     float: none;
-    height: 800px;
+    height: 800px auto;
   }
 
+  .display-section .navs{
+    float: none;
+    width: 95%;
+  }
+  
 
   .cover-photo{
     position: relative;
