@@ -213,7 +213,6 @@ a:focus {
 .navbar-brand {
   padding: 0;
   margin: 0;
-  color: #000000;
   font-weight: bold;
   font-size: 28px;
   font-weight: bold;
@@ -402,9 +401,56 @@ a:focus {
 
 .main-area{
   background-color: #A9A9A9;
-  height: 1200px;
+  height: 3000px;
   width: auto;
 }
+
+.main-area2 {
+  background-color: #A9A9A9;
+  height: 800px;
+  width: auto;
+}
+
+/* index.html */
+.songs img,
+.albums img,
+.videos img,
+.contacts img{
+  width: auto;
+  height: 75px;
+
+}
+
+.display-section .songs img,
+.display-section .albums img,
+.display-section .videos img{
+  position: relative;
+  top: 75px;
+  left: 80px;
+  float: left;
+}
+.display-section .contacts img{
+  position: relative;
+  top: 75px;
+  left:55px;
+  float: left;
+}
+
+.display-section .songs h1
+.display-section .videos h1,
+.display-section .albums h1{
+  position: relative;
+  left: 97px;
+  float: left;
+}
+
+.display-section .contacts h1{
+  position: relative;
+  left: 60px;
+  float: left;
+}
+
+
 
 .display-section .navs{
   float: left;
@@ -446,12 +492,13 @@ a:focus {
 
 .song {
   color: #000000;
-  height: 200px;
+  height: 170px;
 }
 
 .song h3{
   margin: 2px 0 10px 20px;
   font-weight: bold;
+  font-size: 23px;
 }
 
 
@@ -462,7 +509,7 @@ a:focus {
 .image img{
   max-width: 100%;
   width: auto;
-  height: 150px;
+  height: 120px;
   object-fit: contain;
   margin-left: 20px;
   margin-bottom: 10px;
@@ -516,12 +563,16 @@ a:focus {
   border-left:3px solid #808080 ;
   border-bottom:3px solid #808080 ;
   border-radius: 5px;
+  position: sticky;
+  top: 0px;
+
 }
 
 
 .trendheader h3{
-  margin: 20px 0 0 20px;
+  margin: 10px 0 0 20px;
   font-weight: bold;
+
 }
 
 div .trend{
@@ -537,7 +588,7 @@ margin: 20px 0 0 20px;
 .timage{
   max-width: 100%;
   width: auto;
-  height: 90px;
+  height: 70px;
   object-fit: contain;
   border-radius: 5px;
 }
@@ -685,7 +736,7 @@ top: 13px;
     font-weight: bold;
     position: relative;
     top: 10px;
-    left: 30px;
+    left: 20px;
   }
   
 
@@ -764,12 +815,145 @@ top: 13px;
 
 }
 
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+  .main-area{
+    background-color: #A9A9A9;
+    height:3000px;
+    width: auto;
+  }
+
+
+.songs img,
+.albums img,
+.videos img,
+.contacts img{
+  width: auto;
+  height: 75px;
+}
+
+.display-section .songs img,
+.display-section .albums img,
+.display-section .videos img{
+  position: relative;
+  top: 75px;
+  left:60px;
+  float: left;
+}
+
+.display-section .contacts img{
+  position: relative;
+  top: 75px;
+  left: 100px;
+  float: left;
+
+}
+
+.display-section .songs h1
+.display-section .videos h1,
+.display-section .albums h1{
+  position: relative;
+  left: 130px;
+  float: left;
+}
+
+.display-section .contacts h1{
+  position: relative;
+  left: 100px;
+  float: left;
+}
+
+  .product-big-title-area {
+    height: 100px;
+
+  }
+
+  
+.product-bit-title h2 {
+  margin: -35px;
+}
+
+.cover-photo{
+  position: relative;
+  top: -85px;
+}
+
+.download-box{
+  position: relative;
+  top: -200px;
+}
+
+
+  .song{
+    height: 180px;
+  }
+  .song h3{
+    font-size: medium;
+  }
+
+  .image img {
+    margin-top: 15px;
+    height: 100px;
+  }
+
+  .song .songinfo {
+    font-size: small;
+  }
+
+  .song .songinfo a {
+    padding: 3px 15px;
+    margin-left: 90px;
+  }
+
+  .trendheader h3{
+    margin: 5px 0 0 20px;
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  div .trend{
+    margin: 8px 0 0 20px;
+    }
+
+  .trending a  h6{
+   font-size: small;
+  }
+  
+
+  .next-page{
+    margin-top: 15px;
+    height: 35px;
+  }
+
+  div .next-page button{
+    padding: 3px 15px;
+    background-color: #66ff00;
+    border-radius: 20px;
+    font-size: small;
+  
+  }
+
+  .whatsApp{
+    width:45px;
+    height:45px;
+  }
+
+  .whatsApp i {
+    margin-top: 8px;
+  }
+  .whatsapp-txt{
+    margin-top: 20px;
+    font-size: small;
+    position: relative;
+    top: 8px;
+    right:12px;
+    font-weight: bold;
+  }
+}
 
 @media (max-width: 992px) {
   .main-area{
     background-color: #A9A9A9;
-    height:1100px;
+    height:3000px;
     width: auto;
   }
 
@@ -867,11 +1051,52 @@ top: 13px;
     margin-left: 20px;
   }
 
-  .main-area{
+  .main-area,
+  .main-area2{
     background-color: #A9A9A9;
     height: auto;
     width: auto;
   }
+
+.songs img,
+.albums img,
+.videos img,
+.contacts img{
+  width: auto;
+  height: 75px;
+}
+
+.display-section .songs img,
+.display-section .albums img,
+.display-section .videos img{
+  position: relative;
+  top: 75px;
+  left: 150px;
+  float: left;
+}
+
+.display-section .contacts img{
+  position: relative;
+  top: 75px;
+  left: 130px;
+  float: left;
+
+}
+
+.display-section .songs h1,
+.display-section .videos h1,
+.display-section .albums h1{
+  position: relative;
+  left: 180px;
+  float: left;
+}
+
+.display-section .contacts h1{
+  position: relative;
+  left: 150px;
+  float: left;
+}
+
   .display-section{
     width: 100%;
     float: none;
@@ -902,14 +1127,14 @@ top: 13px;
   }
 
   .song{
-    height: 120px;
+    height: 100px;
   }
   .song h3{
     font-size: smaller;
   }
 
   .image img {
-    height: 80px;
+    height: 70px;
   }
 
   .song .songinfo {
@@ -955,15 +1180,313 @@ top: 13px;
 }
 
 @media (max-width: 480px) {
+
   
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
+  .slider_section .img-box{
+    margin-left: 20px;
+  }
+
+  .main-area,
+  .main-area2{
+    background-color: #A9A9A9;
+    height: auto;
+    width: auto;
+  }
+
+.songs img,
+.albums img,
+.videos img,
+.contacts img{
+  width: auto;
+  height: 75px;
+}
+
+.display-section .songs img,
+.display-section .albums img,
+.display-section .videos img{
+  position: relative;
+  top: 75px;
+  left: 45px;
+  float: left;
+}
+
+.display-section .contacts img{
+  position: relative;
+  top: 75px;
+  left: 40px;
+  float: left;
+
+}
+
+.display-section .songs h1,
+.display-section .videos h1,
+.display-section .albums h1{
+  position: relative;
+  left: 60px;
+  float: left;
+  font-size: 30px;
+}
+
+.display-section .contacts h1{
+  position: relative;
+  left: 50px;
+  float: left;
+  font-size: 30px;
+}
+
+  .display-section{
+    width: 100%;
+    float: none;
+    height: 800px auto;
+  }
+
+  .display-section .navs{
+    float: none;
+    width: 95%;
+  }
+  
+
+  .cover-photo{
+    position: relative;
+    top: -85px;
+  }
+
+  .download-box{
+    position: relative;
+    top: -250px;
+  }
+
+  .download-box h3{
+    font-size: medium;
+  }
+  .download-box p {
+    font-size: small;
+  }
+
+  audio{
+    margin-left: 20px;
+    height: 40px;
+    width: 250px;
+  }
+
+
+  .song{
+    height: 100px;
+  }
+  .song h3{
+    font-size: smaller;
+  }
+
+  .image img {
+    height: 70px;
+  }
+
+  .song .songinfo {
+    margin-top: 0;
+    font-size: 11px;
+  }
+
+  .song .songinfo .readmorex {
+    display: none;
+  }
+
+  .trending{
+    width: 100%;
+    float: none;
+    height: 250px;
+  }
+
+  .trending .trend{
+    display: inline-block;
+  }
+
+  .timage{
+    width: auto;
+    height: 50px;
+  }
+
+  .next-page{
+    margin-top: 4px;
+    height: 25px;
+  }
+
+  div .next-page button{
+    padding: 0.5px 5px;
+    background-color: #66ff00;
+    border-radius: 20px;
+    font-size: smaller;
+  
+  }
 
 }
 
 @media (max-width: 376px) {
- 
+  .slider_section .img-box{
+    margin-left: 20px;
+  }
+
+  .main-area,
+  .main-area2{
+    background-color: #A9A9A9;
+    height: auto;
+    width: auto;
+  }
+
+.songs img,
+.albums img,
+.videos img,
+.contacts img{
+  width: auto;
+  height: 75px;
+}
+
+.display-section .songs img,
+.display-section .albums img,
+.display-section .videos img{
+  position: relative;
+  top: 75px;
+  left: 45px;
+  float: left;
+}
+
+.display-section .contacts img{
+  position: relative;
+  top: 75px;
+  left: 40px;
+  float: left;
+
+}
+
+.display-section .songs h1,
+.display-section .videos h1,
+.display-section .albums h1{
+  position: relative;
+  left: 60px;
+  float: left;
+  font-size: 30px;
+}
+
+.display-section .contacts h1{
+  position: relative;
+  left: 50px;
+  float: left;
+  font-size: 30px;
+}
+
+  .display-section{
+    width: 100%;
+    float: none;
+    height: 800px auto;
+  }
+
+  .display-section .navs{
+    float: none;
+    width: 95%;
+  }
+  
+
+  .cover-photo{
+    position: relative;
+    top: -85px;
+  }
+
+  .download-box{
+    position: relative;
+    top: -250px;
+  }
+
+  .download-box h3{
+    font-size: medium;
+  }
+  .download-box p {
+    font-size: smaller;
+  }
+
+  audio{
+    margin-left: 10px;
+    height: 40px;
+    width: 250px;
+  }
+
+
+
+  .song{
+    height: 80px;
+  }
+  .song h3{
+    font-size: 12px;
+  }
+
+  .image img {
+    margin-top: 7px;
+    height: 32px;
+  }
+
+  .song .songinfo {
+    margin-top:-10px;
+    font-size: 11px;
+  }
+
+  .song .songinfo .readmorex {
+    display: none;
+  }
+
+  /* Video */
+
+.iframe{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25;
+}
+
+.iframe iframe{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+}
+
+
+  .trending{
+    width: 100%;
+    float: none;
+    height: 250px;
+  }
+
+  .trending .trend{
+    display: inline-block;
+  }
+
+  .timage{
+    width: auto;
+    height: 50px;
+  }
+
+  .next-page{
+    margin-top: 4px;
+    height: 25px;
+  }
+
+  div .next-page button{
+    padding: 0.5px 5px;
+    background-color: #66ff00;
+    border-radius: 20px;
+    font-size: smaller;
+  
+  }
+
+  .rightside h5 {
+    font-size: 16px;
+    font-weight: medium;
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+
 }
 
 @media (min-width: 1200px) {
